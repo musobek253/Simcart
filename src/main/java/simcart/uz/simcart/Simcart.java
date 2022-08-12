@@ -1,0 +1,13 @@
+package simcart.uz.simcart;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Simcart {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Simcart.class, args);
+    }
+
+}

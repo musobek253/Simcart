@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.41">
+    <root id="1"/>
+    <database id="2" parent="1" name="app-auth">
+      <ObjectId>17894</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="3" parent="1" name="app_relationships">
+      <ObjectId>26114</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="4" parent="1" name="codingbat">
+      <ObjectId>26220</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="5" parent="1" name="computer_db">
+      <ObjectId>16681</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="6" parent="1" name="computer_db_home">
+      <ObjectId>17393</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="7" parent="1" name="gm_uzb">
+      <ObjectId>16825</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="8" parent="1" name="lesson3">
+      <ObjectId>16560</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="9" parent="1" name="nimadrdb">
+      <ObjectId>26876</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="10" parent="1" name="online_bootcamp_g2">
+      <ObjectId>28097</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="11" parent="1" name="pcmarket">
+      <ObjectId>27735</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="12" parent="1" name="postgres">
+      <Comment>default administrative connection database</Comment>
+      <Current>1</Current>
+      <ObjectId>13442</ObjectId>
+      <Relations>sequence|table|16405|16407|1
+sequence|table|16416|16418|1
+sequence|table|16523|16525|1
+sequence|table|16534|16536|1
+</Relations>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="13" parent="1" name="users">
+      <ObjectId>17433</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="14" parent="1" name="warehouse">
+      <ObjectId>17153</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <role id="15" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="16" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+    </role>
+    <role id="17" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="18" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="19" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+    </role>
+    <role id="20" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="21" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="22" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="23" parent="1" name="postgres">
+      <BypassRls>1</BypassRls>
+      <CanLogin>1</CanLogin>
+      <CreateDb>1</CreateDb>
+      <CreateRole>1</CreateRole>
+      <ObjectId>10</ObjectId>
+      <Replication>1</Replication>
+      <SuperRole>1</SuperRole>
+    </role>
+    <tablespace id="24" parent="1" name="pg_default">
+      <ObjectId>1663</ObjectId>
+      <StateNumber>1</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </tablespace>
+    <tablespace id="25" parent="1" name="pg_global">
+      <ObjectId>1664</ObjectId>
+      <StateNumber>1</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </tablespace>
+  </database-model>
+</dataSource>
